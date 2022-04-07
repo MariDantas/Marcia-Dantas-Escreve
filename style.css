@@ -1,0 +1,278 @@
+#paper-text {
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+#title {
+    position: absolute;
+    color: #282299;
+    text-shadow: 2px 2px 6px #282299;
+    font-size: 25.7px;
+    top: 10%;
+    left: 44%;
+}
+
+#desc {
+    position: absolute;
+    color: #000000;
+    top: 51%;
+    left: 44.5%;
+    font-size: 16px;
+}
+
+#stripped-paper {
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    background-color: #b49bbf;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#author {
+    flex-basis: 95%;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#bio {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+#bio-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:  #d1a2e6;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #9f68b4;
+}
+
+.media-icons {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#media {
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-bottom: 110px;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+#conheca {
+    text-align: center;
+}
+
+#historias {
+    margin-bottom: 20px;
+    background-color: #deaef2;
+    padding: 20px 15px 20px 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 11px #e6c9f2 inset;
+    border-style: groove;
+    border-color: #9f68b4;
+}
+
+#newsletter {
+    background-color: #deaef2;
+    padding: 20px 15px 20px 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 11px #e6c9f2 inset;
+    margin-bottom: 60px;
+    border-style: groove;
+    border-color: #9f68b4;
+}
+
+#options {
+    font-size: 25px;
+    font-family: monospace;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#conheca-text {
+    font-size: 30px;
+}
+
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-shadow: 2px 2px 5px #be52ec;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#compre {
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+a:link #compre, a:visited #compre {
+    text-decoration: underline;
+}
+
+a:hover #compre, a:active #compre {
+    color: lightblue;
+}
+
+.book-title {
+    text-align: center;
+    text-shadow: 0px 3px #FFFFFF;
+    font-size: 19px;
+    background-color:  #d1a2e6;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.book {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:  #d1a2e6;
+    padding: 20px 20px 40px 20px;
+}
+
+.sinopsys {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.book-cover {
+    flex-basis: 70%;
+}
+
+h2 {
+    text-shadow: 2px 2px #FFFFFF;
+    font-family: monospace;
+}
+
+.booktrailer {
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.trailer-trilha-text {
+    display: flex;
+    font-size: 15px;
+    background-color:  #d1a2e6;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.trilha {
+    margin-left: 320px;
+}
+
+.vid-trailer {
+    margin-left: 40px;
+}
+
+.vid-trailer-trilha {
+    background-color:  #d1a2e6;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+
+.frame-trilha {
+    margin-left: 230px;
+}
+
+.clique {
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color:  #d1a2e6;
+    font-family: monospace;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+a:link .clique, a:visited .clique {
+    text-decoration: underline;
+}
+
+a:hover .clique, a:active .clique {
+    color: lightblue;
+}
+
+.book-cover-alt {
+    width: 35%;
+    height: 35%;
+}
+
+.sinopsys-alt {
+    margin-left: 70px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#book-cover-alt2 {
+    width: 25%;
+    height: 25%;
+}
+
+#garota-nova {
+    text-align: center;
+    font-size: 15px;
+    background-color:  #d1a2e6;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#book-cover-alt3 {
+    width: 55%;
+    height: 55%;
+}
+
+#sinopsys-alt2 {
+    margin-left: 60px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+#garota-nova-em-breve {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
