@@ -146,6 +146,7 @@ a:link #compre, a:visited #compre {
 
 a:hover #compre, a:active #compre {
     color: lightblue;
+    text-shadow: none;
 }
 
 .book-title {
@@ -233,6 +234,7 @@ a:link .clique, a:visited .clique {
 
 a:hover .clique, a:active .clique {
     color: lightblue;
+    text-shadow: none;
 }
 
 .book-cover-alt {
